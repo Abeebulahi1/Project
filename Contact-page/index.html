@@ -25,9 +25,9 @@
             </div>
             <div class="form">
                 <h4>Let get in touch send me a message.</h4>
-                <form action="#">
+                <form onsubmit="sendEmail(); reset(); return false;">
                     <input type="text" placeholder="Name" required><br>
-                    <input type="email" placeholder="Email" required><br>
+                    <input type="email" id="email" placeholder="Email" required><br>
                     <textarea name="" placeholder="Some Messages..." cols="30" rows="5"></textarea><br>
                     <div class="div"><a href="#" class="btn-1">Submit</a></div>
                  </form>   
@@ -45,5 +45,24 @@
     <div class="footer">
         <p>Code and designed by ABcode</p>
     </div>
+
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"> </script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "abeebrasaq02@gmail.com",
+                Password : "ramzyabb123",
+                To : 'rasaqshina2002@gmail.com',
+                From : document.getElementById(email).value,
+                Subject : "Contact form Enquiry.",
+                Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+            }).then(
+            message => alert(message)
+            );
+} -->
+
+    </script>
 </body>
 </html>

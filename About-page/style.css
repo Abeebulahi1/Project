@@ -58,6 +58,9 @@ margin-right: 80px ;
     border: none;
     box-shadow: 5px 5px 10px rgba(61, 61, 150, 0.767),0px 0px 10px rgba(61, 61, 150, 0.767),0px 0px 10px rgba(61, 61, 150, 0.616);
 }
+.div-1{
+    margin-top: 50px;
+}
 /* .note a{
     padding-top: 20px;
 } */
